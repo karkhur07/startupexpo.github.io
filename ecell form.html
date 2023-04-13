@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="E-cell.html" target="blank">
+    <link rel="stylesheet" href="ecell form.css">
+</head>
+<body>
+    <div class="container">
+    <a href="E-cell.html"></a>
+    <h1 style="margin-bottom: 70px; color: rgb(255, 0, 0);">START-UP EXPO REGISTRATION FORM</h1>
+    <h2 style="text-decoration: underline; color: coral;">PERSONAL INFORMATION</h2>
+    <p>First Name: <input type="text" name="name" required></p>
+    <p>Middle Name: <input type="text" name="name" required></p>
+    <p>Last Name: <input type="text" name="name" required></p>
+    <fieldset>
+        <legend>Gender</legend>
+    <p>  
+        Male <input type="radio" name="gender" id="gender">
+        Female <input type="radio" name="gender" id="gender">
+    </p>
+</fieldset>
+<p>Age: <input type="number" name="number" id="number" required></p>
+<p>DOB: <input type="date" name="date" id="date" required></p>
+<p>Email: <input type="email" name="email" id="email" required></p>
+<p>Phone: <input type="number" name="number" id="number" required></p>
+<hr>
+<h2 style="text-decoration: underline; color: coral;">START-UP INFORMATION</h2>
+<p>Start-Up Name: <input type="text" name="start-up" id="start-up"></p>
+<p>About your Start-Up: <textarea name="about" id="about" cols="100" rows="8"></textarea></p>
+<p>Annual Sale: <input type="number" name="sale" id="sale"></p>
+<hr>
+<h2 style="text-decoration: underline; color: coral;">PAYMENT INFORMATION</h2>
+<p>Card Type:
+    <select name="card type" id="card type">
+        <option value="">--Select a Card Type--</option>
+        <option value="Visa">Visa</option>
+        <option value="Rupay">Rupay</option>
+        <option value="MasterCard">MasterCard</option>
+    </select>
+</p>
+<p>Card Number: <input type="number" name="card number" id="card number" required></p>
+<p>Expire Date: <input type="date" name="date" id="date" required></p>
+<p>CVV: <input type="password" name="cvv" id="cvv" required></p>
+<input type="submit" value="REGISTER NOW" class="register">
+</div>
+</body>
+</html>
